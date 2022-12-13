@@ -1,7 +1,7 @@
 ### Bonus gibt es für Abgaben, die:
-- gut getestet sind (Test Dateien getrennt).
+- gut getestet sind (zuverlässige Testfälle, Randfälle testen, Test Dateien getrennt).
 - Git als Version Control einsetzen (und nicht als Google Drive Alternative).
-- gut dokumentiert sind.
+- gut dokumentiert sind (Dokumentationen sind gut, wenn sie mehr Information hergeben und einen Mehrwert haben).
 - sonstige good practices umsetzen, wie:
   + Funktionen werden klein gehalten und jede Funktion realisiert nur eine Funktionalität.
   + sinnvolle Variablennamen.
