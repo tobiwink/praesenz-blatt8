@@ -2,7 +2,7 @@
 - gut getestet sind (Test Dateien getrennt).
 - Git als Version Control einsetzen (und nicht als Google Drive Alternative).
 - gut dokumentiert sind.
-- sonstige good practices wie:
+- sonstige good practices umsetzen, wie:
   + kleine Funktionen, die nur eine Funktionalität realisiert.
   + sinnvolle Variablennamen
   + etc.
