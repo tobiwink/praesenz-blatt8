@@ -3,8 +3,8 @@
 - Git als Version Control einsetzen (und nicht als Google Drive Alternative).
 - gut dokumentiert sind.
 - sonstige good practices umsetzen, wie:
-  + kleine Funktionen, die nur eine Funktionalität realisiert.
-  + sinnvolle Variablennamen
+  + Funktionen werden kleingehalten und realisieren nur eine Funktionalität.
+  + sinnvolle Variablennamen.
   + etc.
 
 ### Software
