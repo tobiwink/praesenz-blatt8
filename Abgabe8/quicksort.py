@@ -1,4 +1,20 @@
+
 def quick_sort_builder(array):
+    """
+    Sorts the given array using the quick sort algorithm.
+
+    NOTE: This function is not meant to be called directly. Use quickSort instead.
+
+    Parameters
+    ----------
+    array : Sortable array
+        Array to be sorted.
+    
+    Returns
+    -------
+    sorted array
+
+    """
     if len(array) < 2:
         return array
     
@@ -10,12 +26,16 @@ def quick_sort_builder(array):
 
 
 def quickSort(array):
+    """
+    Sorts the given array using the quick sort algorithm and modifies the array.
+
+    Parameters
+    ----------
+    array : Sortable array
+        Array to be sorted.
+    
+    Returns
+    -------
+        None
+    """
     array[:] = quick_sort_builder(array)
-
-
-if __name__ == '__main__':
-    import random
-    random.seed(0)
-    array = [random.randint(0, 1000000) for _ in range(1000000)]
-    # print(array)
-    print(quickSort(array))

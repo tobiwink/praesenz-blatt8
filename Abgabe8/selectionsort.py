@@ -1,4 +1,18 @@
 def selectionSort(array, copy=False):
+    """
+    Sorts the given array using the selection sort algorithm and modifies the array.
+
+    Parameters
+    ----------
+    array : Sortable array
+        Array to be sorted.
+        copy : bool, optional
+            If True, the array will be copied before sorting. The default is False.
+    
+    Returns
+    -------
+        None
+    """
     if copy:
         arr = array.copy()
     
@@ -11,11 +25,3 @@ def selectionSort(array, copy=False):
             if arr[j] < arr[min]:
                 min = j
         arr[i], arr[min] = arr[min], arr[i]
-    return arr
-
-if __name__ == '__main__':
-    import random
-    random.seed(0)
-    array = [random.randint(0, 100) for _ in range(10)]
-    print(array)
-    print(selectionSort(array))
